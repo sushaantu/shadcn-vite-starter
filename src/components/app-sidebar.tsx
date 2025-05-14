@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { Building, ChartArea, LayoutDashboard, LifeBuoy, Receipt, ScanSearch, Settings, Users } from "lucide-react"
 
 import {
   Sidebar,
@@ -14,29 +14,44 @@ import {
 // Menu items.
 const items = [
   {
-    title: "Home",
+    title: "Dashboard",
     url: "#",
-    icon: Home,
+    icon: LayoutDashboard,
   },
   {
-    title: "Inbox",
+    title: "Members",
     url: "#",
-    icon: Inbox,
+    icon: Users,
   },
   {
-    title: "Calendar",
+    title: "Reports",
     url: "#",
-    icon: Calendar,
+    icon: ChartArea,
   },
   {
-    title: "Search",
+    title: "Organizations",
     url: "#",
-    icon: Search,
+    icon: Building,
   },
   {
-    title: "Settings",
+    title: "Risk Scan",
+    url: "#",
+    icon: ScanSearch,
+  },
+  {
+    title: "Billing",
+    url: "#",
+    icon: Receipt,
+  },
+  {
+    title: "Setting",
     url: "#",
     icon: Settings,
+  },
+  {
+    title: "Support",
+    url: "#",
+    icon: LifeBuoy,
   },
 ]
 
